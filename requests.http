@@ -25,3 +25,6 @@ Content-Type: application/json
   "age": "New Age",
   "image": "New Image"
 }
+
+### Kittens Destroy
+DELETE http://localhost:3000/kittens/1 

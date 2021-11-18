@@ -30,4 +30,9 @@ class KittensController < ApplicationController
     render json: kitten.as_json
   end
 
+  def destroy
+    kitten = Kitten.find_by(id: params[:id])
+    kitten.destroy
+    render json: {message: "Kitten successfully destroyed."}
+  end
 end

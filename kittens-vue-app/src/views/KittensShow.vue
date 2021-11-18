@@ -4,6 +4,7 @@
     <img v-bind:src="kitten.image" v-bind:alt="kitten.name" />
     <h2>{{ kitten.age }}</h2>
     <h2>{{ kitten.breed }}</h2>
+    <router-link v-bind:to="`/kittens/${kitten.id}/edit`">Edit Kitten</router-link> |
     <router-link to="/kittens">Back to all Kittens</router-link>
   </div>
 </template>
