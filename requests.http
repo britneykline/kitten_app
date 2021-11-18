@@ -14,3 +14,14 @@ Content-Type: application/json
 
 ### Kittens Show
 Get http://localhost:3000/kittens/1
+
+### Kittens Update
+PATCH http://localhost:3000/kittens/1
+Content-Type: application/json
+
+{
+  "name": "New Name",
+  "breed": "New Breed",
+  "age": "New Age",
+  "image": "New Image"
+}

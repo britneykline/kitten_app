@@ -19,4 +19,15 @@ class KittensController < ApplicationController
     kitten = Kitten.find_by(id: params[:id])
     render json: kitten.as_json
   end
+
+  def update
+    kitten = Kitten.find_by(id: params[:id])
+    kitten.name = params[:name] || kitten.name
+    kitten.breed = params[:breed] || kitten.breed
+    kitten.age = params[:age] || kitten.age
+    kitten.image = params[:image] || kitten.image
+    kitten.save
+    render json: kitten.as_json
+  end
+
 end

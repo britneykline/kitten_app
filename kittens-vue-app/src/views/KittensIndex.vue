@@ -4,6 +4,7 @@
     <div v-for="kitten in kittens" v-bind:key="kitten.id">
       <h2>{{ kitten.name }}</h2>
       <img v-bind:src="kitten.image" v-bind:alt="kitten.name" />
+      <router-link v-bind:to="`/kittens/${kitten.id}`">More Details</router-link>
     </div>
   </div>
 </template>
