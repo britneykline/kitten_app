@@ -15,4 +15,8 @@ class KittensController < ApplicationController
     render json: kitten.as_json
   end
 
+  def show
+    kitten = Kitten.find_by(id: params[:id])
+    render json: kitten.as_json
+  end
 end

@@ -11,3 +11,6 @@ Content-Type: application/json
 "age": 4,
 "image": "https://consciousreminder.com/wp-content/uploads/2018/10/65-Breathtaking-Pictures-Of-Maine-Coons-The-Largest-Cats-In-The-World-4.jpg"
 }
+
+### Kittens Show
+Get http://localhost:3000/kittens/1
