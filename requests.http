@@ -1,0 +1,13 @@
+### Kittens Index
+Get http://localhost:3000/kittens
+
+### Kittens Create/New
+Post http://localhost:3000/kittens
+Content-Type: application/json
+
+{
+"name": "Spike",
+"breed": "Maine Coon",
+"age": 4,
+"image": "https://consciousreminder.com/wp-content/uploads/2018/10/65-Breathtaking-Pictures-Of-Maine-Coons-The-Largest-Cats-In-The-World-4.jpg"
+}
