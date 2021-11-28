@@ -9,8 +9,10 @@
   "dependencies": {
     "axios": "^0.24.0",
     "core-js": "^3.6.5",
+    "startbootstrap-grayscale": "^7.0.4",
     "vue": "^2.6.11",
-    "vue-router": "^3.2.0"
+    "vue-router": "^3.2.0",
+    "vue2-filters": "^0.13.0"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",

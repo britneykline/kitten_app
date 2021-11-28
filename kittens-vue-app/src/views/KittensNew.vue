@@ -5,15 +5,15 @@
       <ul>
         <li v-for="error in errors" v-bind:key="error">{{ error }}</li>
       </ul>
-      Name:
-      <input type="text" v-model="newKittenParams.name" />
-      Breed:
-      <input type="text" v-model="newKittenParams.breed" />
-      Age:
-      <input type="text" v-model="newKittenParams.age" />
-      Image:
-      <input type="text" v-model="newKittenParams.image" />
-      <input type="submit" value="Create" />
+      <p>Name:
+      <input type="text" v-model="newKittenParams.name" /></p>
+      <p>Breed:
+      <input type="text" v-model="newKittenParams.breed" /></p>
+      <p>Age:
+      <input type="text" v-model="newKittenParams.age" /></p>
+      <p>Image:
+      <input type="text" v-model="newKittenParams.image" /></p>
+      <p><input type="submit" value="Create" /></p>
     </form>
   </div>
 </template>

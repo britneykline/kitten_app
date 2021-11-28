@@ -5,6 +5,10 @@
       <router-link to="/about">About</router-link> |
       <router-link to="/kittens">All Kittens</router-link> |
       <router-link to="/kittens/new">New Kitten</router-link>
+      <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
     </div>
     <router-view/>
   </div>
